@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* Typo */
+$family-sans-serif: 'Work Sans', "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+/* Colors */
+$primary: #0d9784;
+$info: #a380e8;
+$link: $info;
+
+/* utilities */
+@import "~bulma/sass/utilities/_all.sass";
+
+/* Modifications de bulma */
+$navbar-breakpoint: $tablet;
+
+/* Bulma */
+@import "~bulma/bulma.sass";
+
+/* Custom Styles */
+@import "./style.scss";

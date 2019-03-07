@@ -7,9 +7,17 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <section className="section">
+    <div className="columns is-centered">
+      <div className="column is-5 has-text-centered">
+        <h1 className="title is-1">Bienvenue sur la page 2</h1>
+        <h3 className="subtitle is-3">Une belle page</h3>
+        <Link to="/">
+          <button data-target="#contact-modal" className="button is-rounded is-medium is-info to-reveal modal-button">Retour !</button>
+          </Link>
+      </div>
+    </div>
+    </section>
   </Layout>
 )
 
